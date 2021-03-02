@@ -389,7 +389,7 @@ bagOfWords* bagOfWords::removeStopWords(myString* stopWords, int numStopWords)
     return temp;
 }
 
-// to search for a given word in _words and add it - returns 0 if not found and then added, 1 if found
+// to search for a given word in _words and add it - returns 0 if not found and then added, 1 if found increase frequency
 int bagOfWords::binarySearchAndInsert (myString& wordToFind)
 {
     // Binary search for the index found or index to insert using alphabetical order
